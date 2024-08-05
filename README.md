@@ -13,32 +13,31 @@
 10. [Database Services](#database-services)
 11. [Application Integration Services](#application-integration-services)
 12. [Developer and Mobile Tools](#developer-and-mobile-tools)
-13. [Azure DevOps Services](#azure-devops-services)
-14. [Networking](#networking)
-15. [Security and Compliance](#security-and-compliance)
+13. [Networking](#networking)
+14. [Security and Compliance](#security-and-compliance)
 
 ## Cloud Responsibilities
 
 ### IAAS (Infrastructure as a Service)
 - **Customer Responsibilities:** Applications, Data
 - **Cloud Provider Responsibilities:** Runtime, Middleware, OS
-- **Example:** [Azure Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
+- **Example:** Azure Virtual Machines
 
 ### PAAS (Platform as a Service)
 - **Customer Responsibilities:** Applications, Data
 - **Cloud Provider Responsibilities:** Runtime, Middleware, OS
-- **Example:** [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/)
+- **Example:** Azure App Services
 
 ### SaaS (Software as a Service)
 - **Customer Responsibilities:** Applications, Data
 - **Cloud Provider Responsibilities:** Everything else
-- **Example:** [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365)
+- **Example:** Microsoft 365
 
 ## Cloud Deployments
 
 ### Public Cloud
 - **Description:** All resources are hosted in the cloud provider’s infrastructure.
-- **Example:** [Azure](https://azure.microsoft.com/)
+- **Example:** Azure
 
 ### Private Cloud
 - **Description:** All resources are hosted within an organization's own data center.
@@ -46,11 +45,11 @@
 
 ### Hybrid Cloud
 - **Description:** Combines public and private clouds, allowing data and applications to be shared between them.
-- **Example:** [Azure Stack](https://azure.microsoft.com/en-us/services/azure-stack/)
+- **Example:** Azure Stack
 
 ### Cross-Cloud
 - **Description:** Integrates multiple cloud services from different providers.
-- **Example:** [Azure Arc](https://azure.microsoft.com/en-us/services/azure-arc/)
+- **Example:** Azure Arc
 
 ## Cost Management
 
@@ -78,7 +77,7 @@
 
 ### Elasticity
 - **Definition:** Automatically adjusting resources based on demand.
-- **Example:** [Azure Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/)
+- **Example:** Azure Scale Sets
 
 ### Fault Tolerance
 - **Definition:** Ability to continue operating in the event of a failure.
@@ -102,7 +101,7 @@
 
 ### High Elasticity
 - **Description:** Automatically adjusts resources based on real-time demand.
-- **Example:** [Azure Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/)
+- **Example:** Azure Scale Sets
 
 ### High Durability
 - **Description:** Ensures data is reliably stored and recoverable.
@@ -112,22 +111,22 @@
 
 ### Virtual Machines (VMs)
 - **Description:** Provides scalable virtualized computing resources.
-- **Example:** [Azure Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
+- **Example:** Azure Virtual Machines
 
 ### Containers
 - **Description:** Lightweight, portable, and efficient environment for running applications.
 - **Tool:** Docker Daemon
-- **Example:** [Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/)
+- **Example:** Azure Container Instances
 
 ### Functions
 - **Description:** Serverless compute service that executes code in response to events.
-- **Example:** [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+- **Example:** Azure Functions
 
 ## Storage Services
 
 ### Blob Storage
 - **Description:** Scalable object storage for unstructured data.
-- **Example:** [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
+- **Example:** Azure Blob Storage
 
 ### Disk Storage
 - **Description:** Persistent storage attached to VMs.
@@ -135,97 +134,159 @@
 
 ### File Storage
 - **Description:** Managed file shares accessible over SMB.
-- **Example:** [Azure Files](https://azure.microsoft.com/en-us/services/storage/files/)
+- **Example:** Azure Files
 
 ### Queue Storage
 - **Description:** Messaging queue for communication between application components.
-- **Example:** [Azure Queue Storage](https://azure.microsoft.com/en-us/services/storage/queues/)
+- **Example:** Azure Queue Storage
 
 ### Table Storage
 - **Description:** NoSQL key-value store for structured data.
-- **Example:** [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/)
+- **Example:** Azure Table Storage
 
 ### Data Lake Storage
 - **Description:** Store large volumes of data in a scalable manner.
-- **Example:** [Azure Data Lake Storage](https://azure.microsoft.com/en-us/services/storage/data-lake-storage/)
+- **Example:** Azure Data Lake Storage
 
 ## Database Services
 
 ### Cosmos DB
 - **Description:** Fully managed NoSQL database with global distribution.
 - **Features:** 99.999% availability, multi-model support.
-- **Example:** [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/)
+- **Example:** Azure Cosmos DB
 
 ### SQL Database
 - **Description:** Managed relational database service.
-- **Example:** [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
+- **Example:** Azure SQL Database
 
 ### Database for MySQL
 - **Description:** Managed MySQL database service.
-- **Example:** [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/)
+- **Example:** Azure Database for MySQL
 
 ### SQL Servers on VMs
 - **Description:** Host SQL Server on virtual machines.
-- **Example:** [Azure SQL Server VMs](https://azure.microsoft.com/en-us/services/sql-server/)
+- **Example:** Azure SQL Server VMs
 
 ### Synapse Analytics
 - **Description:** Analytics service for large-scale data warehousing.
-- **Example:** [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/)
+- **Example:** Azure Synapse Analytics
 
 ### Cache for Redis
 - **Description:** In-memory data structure store for caching.
-- **Example:** [Azure Cache for Redis](https://azure.microsoft.com/en-us/services/cache/)
+- **Example:** Azure Cache for Redis
 
 ## Application Integration Services
 
 ### Notification Hub
 - **Description:** Send notifications to various platforms.
-- **Example:** [Azure Notification Hubs](https://azure.microsoft.com/en-us/services/notification-hubs/)
+- **Example:** Azure Notification Hubs
 
 ### API Apps
 - **Description:** Create and manage APIs quickly.
-- **Example:** [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/)
+- **Example:** Azure API Management
 
 ### Service Bus
 - **Description:** Messaging service for reliable communication between applications.
-- **Example:** [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus/)
+- **Example:** Azure Service Bus
 
 ### Stream Analytics
 - **Description:** Real-time analytics on streaming data.
-- **Example:** [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
+- **Example:** Azure Stream Analytics
 
 ### Logic Apps
 - **Description:** Automate workflows and integrate services.
-- **Example:** [Azure Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/)
+- **Example:** Azure Logic Apps
 
 ## Developer and Mobile Tools
 
 ### Azure SignalR Service
 - **Description:** Real-time messaging for web applications.
-- **Example:** [Azure SignalR Service](https://azure.microsoft.com/en-us/services/signalr/)
+- **Example:** Azure SignalR Service
 
 ### App Service
 - **Description:** Host web applications and APIs.
-- **Example:** [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/)
+- **Example:** Azure App Services
 
 ### Visual Studio
 - **Description:** Integrated development environment for coding.
-- **Example:** [Visual Studio Code](https://code.visualstudio.com/)
+- **Example:** Visual Studio Code
 
 ### Xamarin
 - **Description:** Framework for building mobile applications.
-- **Example:** [Xamarin](https://dotnet.microsoft.com/apps/xamarin)
+- **Example:** Xamarin
 
-## Azure DevOps Services
+## Networking
 
-### Boards
-- **Description:** Agile project management tools.
-- **Example:** [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/)
+### Virtual Networks (vNet)
+- **Description:** Isolated network section to launch resources.
+- **Example:** Azure Virtual Network
 
-### Pipelines
-- **Description:** CI/CD service for building, testing, and deploying code.
-- **Example:** [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/)
+### Subnets
+- **Description:** Smaller network segments within a vNet.
+- **Types:**
+  - **Public:** Accessible from the internet.
+  - **Private:** Not accessible from the internet.
 
-### Repos
-- **Description:** Source control with private Git repositories.
-- **Example:** [Azure Repos](https://azure.microsoft.com/en-us/services
+### Front Door
+- **Description:** Secure point for fast delivery of applications.
+- **Example:** Azure Front Door
+
+### ExpressRoute
+- **Description:** Fast, private connection from on-premises to Azure.
+- **Example:** Azure ExpressRoute
+
+### VPN Gateway
+- **Description:** Site-to-site VPN connection.
+- **Example:** Azure VPN Gateway
+
+### Traffic Manager
+- **Description:** DNS-based traffic load balancer.
+- **Example:** Azure Traffic Manager
+
+### Azure DNS
+- **Description:** Manage DNS records and domains.
+- **Example:** Hosting domain names on Azure.
+
+### Azure Load Balancer
+- **Description:** Distributes incoming network traffic across multiple servers.
+- **Types:**
+  - **Public Load Balancer:** Distributes traffic from the internet.
+  - **Internal Load Balancer:** Distributes traffic within a virtual network.
+
+## Security and Compliance
+
+### Key Vault
+- **Description:** Securely manage and store cryptographic keys and secrets.
+- **Features:** Secrets management, certificate management, hardware security.
+
+### Azure DDoS Protection
+- **Description:** Protection against distributed denial-of-service attacks.
+- **Tiers:** Basic (free), Standard (paid).
+
+### Azure Firewall
+- **Description:** Managed, cloud-based network security service.
+- **Features:** Threat intelligence, logging, and policy management.
+
+### Information Protection (AIP)
+- **Description:** Protect sensitive information using encryption.
+- **Example:** Azure Information Protection
+
+### Application Gateway
+- **Description:** Web application firewall and load balancer.
+- **Features:** Protects web applications from common attacks.
+
+### Advanced Threat Protection (ATP)
+- **Description:** Cloud-based security service for threat detection and response.
+- **Example:** Microsoft Defender for Cloud
+
+### Security Development Lifecycle (SDL)
+- **Description:** Process for ensuring security in software development.
+- **Example:** Secure coding practices.
+
+### Policies and RBAC
+- **Policies:** Create and enforce business rules using JSON.
+- **RBAC (Role-Based Access Control):** Manage access to resources using roles.
+
+### Management Groups
+- **Description:** Organize multiple Azure subscriptions.
+- **Example:** Apply policies and compliance rules across multiple subscriptions.
