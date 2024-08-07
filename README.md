@@ -1,5 +1,23 @@
 # AZ-900 Study Notes
 
+## Additional Learning Resources
+
+### Microsoft Learn
+- **SC-900 Microsoft Security, Compliance, and Identity Fundamentals**
+  - **Time to Complete:** 6 hours
+  - **Link:** [Microsoft Learn SC-900](https://learn.microsoft.com/en-us/credentials/certifications/sc-900)
+
+### Udemy
+- **SC-900 Exam Prep**
+  - **Time to Complete:** 5 hours
+  - **Link:** [Udemy SC-900 Exam Prep](https://www.udemy.com/course/az900-azure/?couponCode=ST10MT8624)
+
+### YouTube
+- **SC-900 Exam Preparation**
+  - **Time to Complete:** 6 hours
+  - **Links:**
+    - [Video 1](https://www.youtube.com/watch?v=tQp1YkB2Tgs)
+
 ## Table of Contents
 1. [Cloud Responsibilities](#cloud-responsibilities)
 2. [Cloud Deployments](#cloud-deployments)
@@ -273,20 +291,4 @@
 
 ### Application Gateway
 - **Description:** Web application firewall and load balancer.
-- **Features:** Protects web applications from common attacks.
-
-### Advanced Threat Protection (ATP)
-- **Description:** Cloud-based security service for threat detection and response.
-- **Example:** Microsoft Defender for Cloud
-
-### Security Development Lifecycle (SDL)
-- **Description:** Process for ensuring security in software development.
-- **Example:** Secure coding practices.
-
-### Policies and RBAC
-- **Policies:** Create and enforce business rules using JSON.
-- **RBAC (Role-Based Access Control):** Manage access to resources using roles.
-
-### Management Groups
-- **Description:** Organize multiple Azure subscriptions.
-- **Example:** Apply policies and compliance rules across multiple subscriptions.
+- **Features:** Application-level security, SSL termination.
